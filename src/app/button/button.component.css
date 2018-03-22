@@ -1,0 +1,24 @@
+.btn {
+  width: 142px;
+  height: 40px;
+  border: 1px solid #0061db;
+  background-color: white;
+  color: #0061db;
+  cursor: pointer;
+}
+
+.btn:hover {
+  width: 150px;
+  height: 40px;
+  border: 0px;
+  background-color: #c5c7ce;
+  color: black;
+}
+
+.btn:focus {
+  background-color: #0061db;
+  width: 150px;
+  height: 40px;
+  border: 0px;
+  color: white;
+}

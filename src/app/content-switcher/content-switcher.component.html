@@ -1,0 +1,12 @@
+<h1>
+  Switcher label
+</h1>
+<div class="mainContainer">
+  <div class="container">
+    <app-button *ngFor="let button of content; let i = index" (click)="handleSections(i)" title={{button.title}}></app-button>
+  </div>
+  <div class="content">
+    {{actualContent}}
+  </div>
+
+</div>
